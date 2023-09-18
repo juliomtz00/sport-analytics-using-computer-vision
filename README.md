@@ -1,4 +1,4 @@
-# final-exam-vision-udem
+# sports-analytics-using-computer-vision
 
 ## Introduction to vision analytics and 3D localization of moving objects
 Both vision analytics and 3D localization of moving objects use computer vision techniques to precisely estimate the position and motion of things in three-dimensional space. These two topics are closely related. Vision analytics, sometimes referred to as computer vision analytics, is the practice of applying computer vision algorithms to analyze and extract useful insights from visual data, such as photos or videos. 
