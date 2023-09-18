@@ -32,6 +32,22 @@ First and foremost, the requirements of the problem must be analyzed. For datase
 
 <img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/frame-hls.png"/>
 
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/frame-hsv.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/frame-hls-min.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/field-1.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/field-2.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/perimeter.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/perimeter-min.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/count.png"/>
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/count-min.png"/>
+
 In detail, the description of each step to filter the image in the program for the first video is shown:
 • We started off by making a color space transformation so we could filter out the grass of the field, we obtained an image like the one shown in the figure 5.
 • After we checked for a combination of H-L-S elements that would filter out the grass. We ended up assigning the following values to Low/High HLS: frame threshold = cv2.inRange(frame- HLS, (0, 0, 81), (180, 255, 255)) and obtaining an image like the one shown in the figure 6.
@@ -51,3 +67,5 @@ As an additional comment, a function was added to both scripts to establish the 
 
 ## Results
 As a result, we were able to comply with the requirements and problem, by filtering the image and showing the number of times that the ball was on each side, even though because of a mistake in recognizing only the ball, as it still isn’t fully filtered, some points are being taken into account even though they don’t correspond to the ball moving as seen in figure 15. It can be seen in Figure 16 that the count is being done, even though it is not dynamic as we would have wanted and was discussed in class, as it wasn’t able to be done within the given time, but the problem statement is mainly resolved, taking some minor processing errors into consideration.
+
+<img src="https://github.com/juliomtz00/final-exam-vision-udem/blob/7111cc6333c715a314cc960c0bb406f3124b1192/images/results1.png"/>
