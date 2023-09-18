@@ -6,4 +6,4 @@ To evaluate the substance of visual data and extract useful information from it,
 In order to infer depth information and recreate the 3D world, stereo vision depends on the discrepancy between many cameras. Utilizing a single camera, depth estimation techniques can also be used by examining the size, shape, and other visual characteristics of objects. It is feasible to comprehend an item’s position, trajectory, speed, and other important characteristics by precisely localizing the object in 3D space. Numerous applications, such as augmented reality, robotics, object tracking, navigational systems, and immersive experiences, depend on this information. 
 Exciting new possibilities for the real-time comprehension and analysis of dynamic scenes are made possible by the combination of vision analytics and 3D localization of moving objects. It makes it possible for robots to observe and comprehend the visual world, enabling more intelligent and human-like automation, decision-making, and environmental interaction.
 
-<img src="">
+<img src="images/applications.png">
